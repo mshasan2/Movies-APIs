@@ -16,7 +16,7 @@ public class MoviesApplication {
 	// This method is a GET endpoint at the root of our API
 	// It returns a String with the text "Hello world!"
 	// The @GetMapping annotation maps HTTP GET requests onto specific handler methods
-	@GetMapping("/") // This annotation is needed to make this method a GET endpoint
+	@GetMapping("/test") // This annotation is needed to make this method a GET endpoint
 	public String apiRoot() {
 		return "Hello world!";
 	}
